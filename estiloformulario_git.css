@@ -1,0 +1,49 @@
+body
+{
+    font-family: Helvetica, sans-serif;
+    width: 960px;
+    margin: auto;
+    background-image: url("background_site.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.container
+{
+    border: 2px solid #000000;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    position: center;
+    margin: auto;
+    width: 60%;
+    background-color: #aaaaaa;
+}
+label, input[type=submit], input[type=text], textarea
+{
+    display: block;
+}
+textarea
+{
+    width: 300px;
+    height: 80px;
+}
+input[type=submit]
+{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 100px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+input[type=submit]:hover
+{
+    background: orange;
+}

@@ -3,34 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="estiloformulario.css">
+        <link rel="stylesheet" type="text/css" href="estiloformulario_git.css">
         <title>Teste Formulario</title>
     </head>
 
     <body>
-        <form action="" method="get">
-            <label for="nome">
-                Nome:
-            </label>
-            <input type="text" placeholder="Digite seu nome" id="nome" name="nome" />
+        <div class="container">
+            <form action="" method="get">
+                <label for="nome">
+                    <h3>Nome:</h3>
+                </label>
+                <input type="text" placeholder="Digite seu nome" id="nome" name="nome" />
 
-            <label for="opçao">
-                Você gostou do site?
-            </label>
-            <input type="radio" name="opçao" value="sim" checked="checked" />Sim
-            <input type="radio" name="opçao" value="nao" />Não
+                <label for="opçao">
+                    <h3>Você gostou do site?</h3>
+                </label>
+                <input type="radio" name="opçao" value="sim" checked="checked" />Sim
+                <input type="radio" name="opçao" value="nao" />Não
 
-            <label for="linguagem">
-                Você que aprender mais sobre:
-            </label>
-            <input type="checkbox" name="html" />HTML
-            <input type="checkbox" name="css" />CSS
+                <label for="linguagem">
+                    <h3>Você que aprender mais sobre:</h3>
+                </label>
+                <input type="checkbox" name="html" />HTML
+                <input type="checkbox" name="css" />CSS
 
-            <textarea name="msg">
+                <label for="comentario">
+                    <h3>Algum comentario sobre?</h3>
+                </label>
+                <textarea name="msg">
 
-            </textarea>
+                </textarea>
 
-            <input type="submit" value="Enviar" />
-        </form>
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
     </body>
 </html>
