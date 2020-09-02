@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estiloformulario.css">
+        <title>Teste Formulario</title>
+    </head>
+
+    <body>
+        <form action="" method="get">
+            <label for="nome">
+                Nome:
+            </label>
+            <input type="text" placeholder="Digite seu nome" id="nome" name="nome" />
+
+            <label for="opçao">
+                Você gostou do site?
+            </label>
+            <input type="radio" name="opçao" value="sim" checked="checked" />Sim
+            <input type="radio" name="opçao" value="nao" />Não
+
+            <label for="linguagem">
+                Você que aprender mais sobre:
+            </label>
+            <input type="checkbox" name="html" />HTML
+            <input type="checkbox" name="css" />CSS
+
+            <textarea name="msg">
+
+            </textarea>
+
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>
